@@ -1,0 +1,121 @@
+.titulo{
+    background-color: rebeccapurple;
+    color: white;
+    padding: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1:hover{
+    transition-duration: 1s;
+    transform: translate(50px);
+}
+nav{
+    background-color: rebeccapurple;
+    padding: 3px;
+    
+}
+ul{
+    margin: 0;
+    padding-left: 10px;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    color: white;
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{  
+    text-decoration: none;
+}
+li:hover {
+    color: aqua;
+    transition-duration: .5s;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px;
+}
+h3:hover {
+    color:orange;
+    font-size: 30px;
+    transition-duration: 1s;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.fondo{
+    background-color: rgb(143, 107, 240);
+    border-radius: 10px;
+    padding: 12px;
+}
+.web{
+    background-color: blue;
+    text-align: center;
+    padding: 5px;
+}
+.web:hover{
+    color:aqua;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.movil{
+    background-color: green;
+    text-align: center;
+    padding: 5px;
+}
+.movil:hover{
+    color:aqua;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+.backend{
+    background-color: red;
+    text-align: center;
+    padding: 5px;
+}
+.backend:hover{
+    color:aqua;
+    transform: scale(1.2);
+    transition-duration: 1s;
+}
+
+.display{
+    display: inline-block;
+    margin: 10px;
+    border-radius: 8px;
+    width: 15%;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left:20%;
+    position: relative;
+    
+}
+.final{
+    background-color: rgb(58, 56, 56);
+    text-align: center;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width:600px){
+    nav{
+        background-color: blue;
+    }
+    li{
+        display: block;
+    }
+    .titulo{
+        display: none;
+    }
+    .display{
+        display: block;
+        width: 100%;
+    }
+    .fondo{
+        background-color: white;
+    }
+}
